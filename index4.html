@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>和宝贝的快乐时光</title>
+		<meta name="description" content="Grid Loading and Hover Effect: Recreating Samsung's grid loading effect" />
+		<meta name="keywords" content="grid loading, swipe, effect, slide, masonry, web design, tutorial" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" href="http://dreamsky.github.io/main/blog/common/init.css">
+		<style>
+		body {
+			background: #9BCD9B;
+		}
+		.codrops-demos a.current-demo {
+			color: #999;
+		}
+		.codrops-header h1 {
+			margin-top: 50px;
+			font-family: 'Microsoft Yahei';
+			color: #fff;
+		}
+		</style>
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="codrops-header">
+				<h1>Nice Day</h1>	
+				<nav class="codrops-demos">
+					<a href="index.html">日常</a>
+					<a href="index2.html">三泉湖</a>
+					<a href="index3.html">迪士尼</a>
+					<a class="current-demo" href="index4.html">乌镇</a>
+					<a href="index5.html">洛阳</a>
+				</nav>
+			</header>
+			<section class="grid-wrap">
+				<ul class="grid swipe-rotate" id="grid">
+					<li><a href=""><img src="宝贝美照/乌镇/1.jpg" alt="img01"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/2.jpg" alt="img02"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/3.jpg" alt="img03"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/4.jpg" alt="img04"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/5.jpg" alt="img05"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/6.jpg" alt="img06"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/7.jpg" alt="img07"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/8.jpg" alt="img08"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/9.jpg" alt="img09"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/10.jpg" alt="img10"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/11.jpg" alt="img11"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/12.jpg" alt="img12"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/13.jpg" alt="img13"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/14.jpg" alt="img14"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/15.jpg" alt="img15"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/16.jpg" alt="img16"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/17.jpg" alt="img17"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/18.jpg" alt="img18"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/19.jpg" alt="img19"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/20.jpg" alt="img20"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/21.jpg" alt="img21"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/22.jpg" alt="img22"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/23.jpg" alt="img23"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/24.jpg" alt="img24"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/25.jpg" alt="img25"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/26.jpg" alt="img26"></a></li>
+					<li><a href=""><img src="宝贝美照/乌镇/27.jpg" alt="img27"></a></li>
+				</ul>
+			</section>
+		</div><!-- /container -->
+		<div class="footer-banner" style="width:728px; margin:160px auto 100px"></div>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/colorfinder-1.1.js"></script>
+		<script src="js/gridScrollFx.js"></script>
+		<script>
+			new GridScrollFx( document.getElementById( 'grid' ), {
+				viewportFactor : 0.4
+			} );
+		</script>
+		<script src="http://dreamsky.github.io/main/blog/common/jquery.min.js"></script>
+		<script src="http://dreamsky.github.io/main/blog/common/init.js"></script>
+	</body>
+</html>
